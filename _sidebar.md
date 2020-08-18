@@ -1,2 +1,10 @@
 * [介绍](README.md)
-    * [设计](spec/design.md)
+* 开发
+  * [开发管理](dev/mgr.md)
+  * [敏捷开发](dev/agile.md)
+* 团队
+  * [团队管理](team/mgr.md)
+  * [人员招聘](team/hire.md)
+  * [好坏产品经理](team/pm.md)
+  * [好坏程序员](team/se.md)
+  * [项目管理](team/project_mgr.md)
