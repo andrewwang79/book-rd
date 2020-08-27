@@ -1,10 +1,12 @@
 * [介绍](README.md)
-* 开发
-  * [开发管理](dev/mgr.md)
+* 软件工程
   * [敏捷开发](dev/agile.md)
-* 团队
-  * [团队管理](team/mgr.md)
-  * [人员招聘](team/hire.md)
-  * [好坏产品经理](team/pm.md)
-  * [好坏程序员](team/se.md)
-  * [项目管理](team/project_mgr.md)
+  * [项目管理](dev//project.md)
+  * [开发管理](dev/mgr.md)
+* [团队](team/README.md)
+  * [团队操作](team/operation.md)
+* 质量体系(QS),质量控制(QC),质量保证(QA),质量验证(VA)
+* 资料
+  * [招聘要求](material/hire.md)
+  * [好坏产品经理](material/pm.md)
+  * [好坏程序员](material/se.md)
