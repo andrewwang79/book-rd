@@ -1,4 +1,9 @@
 # 测试
+# 介绍
+* 测试目的：不是bug，是质量。
+* 质量保证方法：覆盖率
+* MVP的测试重点：是业务逻辑，不是UI
+
 ## 概念和术语
 | 名称 | 英文 | 说明 |
 | --------  | ----- | ---- |
@@ -7,31 +12,14 @@
 | 测试报告 | TestReport | 由测试用例集组成，有对应的bug列表 |
 | 缺陷 | Bug |  |  |
 
-## 介绍
-* 测试目的：不是bug，是质量。
-* 质量保证方法：覆盖率
-* MVP的测试重点：是业务逻辑，不是UI
-
 ## 测试方法
 | 方法 | 说明 |
 | :----: | ---- |
 | [单元测试](https://www.sohu.com/a/238768687_286966) | 最小可测试单元：类、方法或者函数 |
-| 功能测试 | 1个组件内 |
-| 集成测试 | 多个组件 |
-| 接口测试 |  |
-| 系统测试 | all |
-
-### 单元测试
-1. [使用强大的 Mockito 来测试你的代码](https://cloud.tencent.com/developer/article/1056721)
-1. 修复一个类/方法的bug关联许多功能测试，可以使用单元测试代替功能测试
-1. 单元测试永远不会用到：
-  1. 数据库
-  1. 一个app服务器（或者任何类型的服务器）
-  1. 文件/网络 I/O或者文件系统
-  1. 另外的应用
-  1. 控制台（System.out,system.err等等）
-  1. 日志
-  1. 大多数其他类（但不包括DTO‘s，String,Integer,mock和一些其他的类）
+| 集成测试 | 测试不同组件的接口部分 |
+| 接口测试 | API |
+| 系统/功能测试 | all |
+| 确认测试/有效性测试 | 软件需求规格说明书里的功能和性能 |
 
 ## 内容和方法
 | 内容 | 方法 | 说明 |
@@ -50,7 +38,25 @@
 | 2 | 公司内部 |  |
 | 3 | 公司外部 |  |
 
-## AB测试/灰度发布
+
+# 单元测试
+1. 修复一个类/方法的bug关联许多功能测试，可以使用单元测试代替功能测试
+1. 单元测试永远不会用到：
+  1. 数据库
+  1. 一个app服务器（或者任何类型的服务器）
+  1. 文件/网络 I/O或者文件系统
+  1. 另外的应用
+  1. 控制台（System.out,system.err等等）
+  1. 日志
+  1. 大多数其他类（但不包括DTO‘s，String,Integer,mock和一些其他的类）
+
+## Java
+1. [Mockito demo](https://www.springboottutorial.com/spring-boot-unit-testing-and-mocking-with-mockito-and-junit)
+1. https://howtodoinjava.com/spring-boot2/testing/testing-support/
+1. [使用强大的 Mockito 来测试你的代码](https://cloud.tencent.com/developer/article/1056721)
+1. https://juejin.im/post/6844903924248346637
+
+# AB测试/灰度发布
 * 用户有功能版本列表(功能+AB版本)，不同功能间的版本是独立的。
 * 功能版本列表存放在本地，如cookie。
 * 没有功能版本则使用功能前自动分配。
@@ -76,11 +82,14 @@
 | 10003 | 注册页面 | 已注册  | 已注册的账号 | 输入，点击注册 | 提示已注册 |
 | 10004 | 注册页面 | 注册次数超每天次数  | 未注册的手机号尝试次数已到达最大每天注册次数 | 输入，点击注册 | 提示本手机号今日已锁定 |
 
-## 参考
-* [软件测试网](http://www.51testing.com/)
+# 资料
+* [浅谈单元测试](https://www.sohu.com/a/238768687_286966)
+* [软件测试方法——单元测试、集成测试、系统测试、确认测试](https://blog.csdn.net/u012426327/article/details/78400045)
+* [单元测试、集成测试、系统测试和验收测试、冒烟测试、回归测试、随机测试、探索性测试和安全测试](https://juejin.im/post/6844903986462457864)
 * [软件测试基础知识](http://wenku.baidu.com/view/388fdad0360cba1aa911da01.html)
 * [软件测试类型](http://baike.baidu.com/item/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%B1%BB%E5%9E%8B)
 * [软件测试的16种测试类型](http://wenku.baidu.com/view/cac33c37eefdc8d376ee32ed.html)
 * [bug优先级和严重级定义](http://blog.csdn.net/sunshine_mei/article/details/49230199)
 * [selenium2.0-中文帮助文档.doc](http://static.zybuluo.com/andrewwang/m117c4ye3mxbllh013l080wj/selenium2.0-%E4%B8%AD%E6%96%87%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3.doc)
 * [阿里完整自动化测试解决方案macaca](https://yq.aliyun.com/articles/8310)
+* [软件测试网](http://www.51testing.com/)
