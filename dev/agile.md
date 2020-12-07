@@ -66,5 +66,5 @@
 1. 贴纸内容：事情，人员，完成时间
 
 ## 参考
-* [功能逐级发布](https://www.zybuluo.com/andrewwang/note/571812#功能逐级发布facebook的机制gatekeeper)TODO
+* [功能逐级发布](https://www.zybuluo.com/andrewwang/note/571812#功能逐级发布facebook的机制gatekeeper)
 * [版本控制：MIUI版本迭代之道](http://www.woshipm.com/operate/106481.html)

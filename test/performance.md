@@ -8,9 +8,9 @@
 1. visualvm
 外部工具
   * [visualvm](https://visualvm.github.io/)
-  * [Jstatd方式远程监控Linux下 JVM运行情况](http://www.cnblogs.com/catkins/p/5970364.html)TODO
+  * [Jstatd方式远程监控Linux下 JVM运行情况](http://www.cnblogs.com/catkins/p/5970364.html)
 
 2. JavaMelody
 内置到项目
   * [JavaMelody](https://github.com/javamelody/javamelody)
-  * [Spring Boot集成](https://github.com/javamelody/javamelody/tree/master/javamelody-for-spring-boot)TODO
+  * [Spring Boot集成](https://github.com/javamelody/javamelody/tree/master/javamelody-for-spring-boot)
