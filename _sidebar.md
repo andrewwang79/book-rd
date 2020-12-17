@@ -3,17 +3,14 @@
   * [敏捷开发](dev/agile.md)
   * [项目管理](dev/project.md)
   * [开发管理](dev/mgr.md)
-* [团队](team/README.md)
-  * [团队操作](team/operation.md)
-* 质量体系(QS),质量控制(QC),质量保证(QA),质量验证(VA)
-* [测试](test/SUMMARY.md)
-  * [测试和用例](test/intro.md)
-  * [单元测试](test/UT.md)
-  * [API测试](test/api.md)
-  * [性能测试](test/performance.md)
-  * [App测试](test/app.md)
-  * [测试工具](test/tool.md)
-* 资料
-  * [招聘要求](material/hire.md)
-  * [好坏产品经理](material/pm.md)
-  * [好坏程序员](material/se.md)
+* 团队管理
+  * [管理方法](team/SUMMARY.md)
+  * [操作](team/operation.md)
+  * 资料
+    * [招聘要求](team/material/hire.md)
+    * [好坏产品经理](team/material/pm.md)
+    * [好坏程序员](team/material/se.md)
+    * [面试题](./file/面试题)
+* 测试
+  * [知识](test/SUMMARY.md)
+  * [通用测试工具](test/tool.md)

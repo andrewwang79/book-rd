@@ -1,4 +1,4 @@
-# 测试工具
+# 通用测试工具
 
 ## jmeter
 ### 使用流程
@@ -10,3 +10,6 @@
 
 ### 资料
 1. [jmeter集群](https://my.oschina.net/u/1241970/blog/635507)
+
+## Postman
+1. [Postman](https://blog.csdn.net/u012453843/article/details/78537040)
