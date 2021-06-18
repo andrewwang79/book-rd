@@ -1,5 +1,6 @@
 * [介绍](README.md)
 * 软件工程
+  * [版本模型的最佳实践](dev/model.md)
   * [敏捷开发](dev/agile.md)
   * [项目管理](dev/project.md)
   * [开发管理](dev/mgr.md)
