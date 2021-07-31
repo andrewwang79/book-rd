@@ -15,3 +15,5 @@
 * 测试
   * [知识](test/SUMMARY.md)
   * [通用测试工具](test/tool.md)
+* 软件配置管理
+  * [知识](cm/SUMMARY.md)
