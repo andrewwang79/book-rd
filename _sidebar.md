@@ -2,6 +2,7 @@
 * 软件工程
   * [版本模型的最佳实践](dev/model.md)
   * [敏捷开发](dev/agile.md)
+  * [VMODEL开发](dev/vmodel.md)
   * [项目管理](dev/project.md)
   * [开发管理](dev/mgr.md)
 * 团队管理
