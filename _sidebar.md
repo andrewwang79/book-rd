@@ -1,5 +1,6 @@
 * [介绍](README.md)
 * 软件工程
+  * [研发效能](dev/efficiency.md)
   * [版本模型的最佳实践](dev/model.md)
   * [敏捷开发](dev/agile.md)
   * [VMODEL开发](dev/vmodel.md)
