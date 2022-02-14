@@ -6,14 +6,17 @@
   * [VMODEL开发](dev/vmodel.md)
   * [项目管理](dev/project.md)
   * [开发管理](dev/mgr.md)
-* 团队管理
-  * [管理方法](team/SUMMARY.md)
-  * [操作](team/operation.md)
+* 人员管理
+  * [团队管理](mgr/team.md)
+  * [团队结构](mgr/teamstruct.md)
+  * [向上管理](mgr/upward.md)
+* [人员](hire/SUMMARY.md)
+  * [JD](hire/jd.md)
+  * [面试](hire/interview.md)
   * 资料
-    * [招聘要求](team/material/hire.md)
-    * [好坏产品经理](team/material/pm.md)
-    * [好坏程序员](team/material/se.md)
-    * [面试题](./file/面试题)
+    * [架构师](hire/material/architect.md)
+    * [好坏产品经理](hire/material/pm.md)
+    * [好坏程序员](hire/material/se.md)
 * 测试
   * [知识](test/SUMMARY.md)
   * [通用测试工具](test/tool.md)
