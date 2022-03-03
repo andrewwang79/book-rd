@@ -15,10 +15,11 @@
   * [面试](hire/interview.md)
   * 资料
     * [架构师](hire/material/architect.md)
+    * [中台团队](hire/material/zt.md)
     * [好坏产品经理](hire/material/pm.md)
     * [好坏程序员](hire/material/se.md)
 * 测试
   * [知识](test/SUMMARY.md)
   * [通用测试工具](test/tool.md)
-* 软件配置管理
+* 配置管理
   * [知识](cm/SUMMARY.md)
