@@ -23,3 +23,5 @@
   * [通用测试工具](test/tool.md)
 * 配置管理
   * [知识](cm/SUMMARY.md)
+* 法规标准
+  * [知识](standard/SUMMARY.md)
