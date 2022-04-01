@@ -12,17 +12,37 @@
 | 测试报告 | TestReport | 由测试用例集组成，有对应的bug列表 |
 | 缺陷 | Bug |  |  |
 
-## 测试方法
-| 方法 | 说明 |
-| :----: | ---- |
-| [单元测试](https://www.sohu.com/a/238768687_286966) | 最小可测试单元：类、方法或者函数 |
-| 集成测试 | 测试不同组件的接口部分 |
-| 接口测试 | API |
-| 系统/功能测试 | all |
-| 确认测试/有效性测试 | 软件需求规格说明书里的功能和性能 |
+## 测试
+### 功能测试
+| 测试 | 英文 | 说明 |
+| ---- | ---- | ---- |
+| [单元测试](https://www.sohu.com/a/238768687_286966) | Unit testing | 最小可测试单元：类、方法或者函数 |
+| 接口测试 | Interface testing | API |
+| 集成测试 | Integration testing | 测试不同组件的接口部分 |
+| 冒烟测试 | Smoke testing | 核心业务的正向流程 |
+| 系统测试 | System testing | all |
+| 回归测试 | Regression testing | 修改部分的测试 |
+| 确认测试/验收测试 | Acceptance testing | 软件需求规格说明书里的功能和性能 |
 
-## 内容和方法
-| 内容 | 方法 | 说明 |
+### 非功能测试
+
+| 测试 | 英文 | 说明 |
+| ---- | ---- | ---- |
+| 性能测试 | Performance Testing |  |
+负载测试 | Load testing |  |
+压力测试 | Stress testing |  |
+容量测试 | Volume testing |  |
+安全测试 | Security testing |  |
+兼容性测试 | Compatibility testing |  |
+安装测试 | Install testing |  |
+恢复测试 | Recovery testing |  |
+可靠性测试 | Reliability testing |  |
+可用性测试 | Usability testing |  |
+一致性测试 | Compliance testing |  |
+本地化测试 | Localization testing |  |
+
+## 内容和测试
+| 内容 | 测试 | 说明 |
 | :----: | ---- | ---- |
 | 需求 | 系统测试 |  |
 | 概要设计 | 集成测试，接口测试 |  |

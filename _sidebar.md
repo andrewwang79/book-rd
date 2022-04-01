@@ -10,7 +10,7 @@
   * [团队管理](mgr/team.md)
   * [团队结构](mgr/teamstruct.md)
   * [向上管理](mgr/upward.md)
-* [人员](hire/SUMMARY.md)
+* [人员招聘](hire/SUMMARY.md)
   * [JD](hire/jd.md)
   * [面试](hire/interview.md)
   * 资料
