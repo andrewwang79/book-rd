@@ -6,6 +6,7 @@
   * [VMODEL开发](dev/vmodel.md)
   * [项目管理](dev/project.md)
   * [开发管理](dev/mgr.md)
+  * [设计文档](dev/designdoc.md)
 * 人员管理
   * [团队管理](mgr/team.md)
   * [团队结构](mgr/teamstruct.md)
