@@ -57,15 +57,9 @@
 | 架构 | 技术架构无法支持大流量等 | 好的技术架构可以支持的更久 |
 | 团队 | 团队不行 | 做好团队能力建设 |
 
-## 资料
-* [Java架构师知识体系](http://class.imooc.com/sale/javaarchitect)
-* [CTO、技术总监、首席架构师的区别](https://www.cnblogs.com/942267027wzmblog/p/6117369.html)
-
-| 岗位 | 职责 | 路线 | 前提条件 | 说明 |
-| :-: | - | - | - | - |
-| CTO | 公司战略发展 | M | 技术总监 |  |
-| 技术总监 | 多个产品线的开发和人事管理 | M | 多个产品线 |  |
-| 技术经理/leader/scrum master | 一个产品的开发管理 | M | 一个产品 |  |
-| 首席架构师 | 技术平台和产品的架构对接 | T | 技术平台+架构师 |  |
-| 架构师 | 技术平台或产品线的架构设计 | T | 产品规模化 |  |
-| 高级程序员 | 一个产品的核心开发 | T | 无 | 可转M或者T |
+## Java架构师知识体系
+* https://github.com/xingshaocheng/architect-awesome
+* https://github.com/aalansehaiyang/technology-talk
+* https://github.com/TFdream/awesome-backend-architecture
+* http://class.imooc.com/sale/javaarchitect
+* https://github.com/davideuler/architecture.of.internet-product
