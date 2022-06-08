@@ -1,7 +1,13 @@
 # 版本模型的最佳实践
 
 ## 最佳实践
-![](../file/git_workflow.png)
+* [先锋主干多稳定分支](https://juejin.cn/post/6844904197763104775)，特性分支开发的变种，区别有
+  1. 尽量在develop分支开发
+  1. 在release做hotfix、tag和发布
+
+![](../s/dev/model/fbd_simple.jpg)
+
+![](../s/dev/model/git_workflow.png)
 
 ### 原则
 1. 未经测试或代码审核的，不准发生产环境
@@ -27,7 +33,7 @@
 #### 封版
 1. (基于主干分支)新开发布分支
 
-#### 发版
+#### 发布
 1. (基于发布分支的测试通过后)打发布tag
 1. 发布分支合并回主干
 1. 基于发布tag构建包
@@ -38,7 +44,7 @@
   1. hotfix分支fix
     1. 基于发布分支新开hotfix分支
     1. fix后hotfix分支合回发布分支
-1. “发版”
+1. “发布”
 
 注意事项
 * 不支持多个hotfix同时在发布分支操作。如有需要可开hotfix分支处理
@@ -46,27 +52,39 @@
   1. hotfix
   1. 打最新的tag。比如：1.2.1上发现问题hotfix后，打最新tag1.2.9
 
-## 资料
-* [主干开发模式](https://mp.weixin.qq.com/s/Q6pvLcr7S2Xct8MGtjMofA)
-
 ### 环境清单
 1. 每个环境都有独立的一套：执行程序，数据库，配置
 
 | 环境 | 分支tag | 说明 |
-| :----: | ---- | ---- |
+| - | - | - |
 | 开发环境 | 开发分支 | 开发人员自行搭建环境 |
 | 测试环境 | 发布分支 |  |
 | 正式环境 | 发布tag |  |
 
-### 主流版本模型
-* 原则：新分支只能合并到来源分支(不能在新分支之间做合并)，来源分支可以将部分改进合并到新分支
-* 资料：[分支模型](http://blog.csdn.net/qq_34651940/article/details/51891767)，[英文原版](http://nvie.com/posts/a-successful-git-branching-model/)。master上可能会发生多个版本混合事情【世界是个树，不是线】，不建议用master
-![](http://img.blog.csdn.net/20160716144249144?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
+## 资料分析
+### 分析
+| 模式 | 说明 | 优势 | 劣势 |
+| - | - | - | - |
+| 主干开发（TBD,trunkbaseddevelopment.com） | 速度优先 <br> 开发团队的成员1天至少1次地将代码提交到主干分支 | 1. 随时拥有可发布的版本 <br> 2. 天然支持灰度发布以及A/B Test <br> 3. 因为提前测试feature，所以更容易的控制feature发布 <br> 4. 更简单的版本管理 | 1. 代码评审和质量, 结对编程 |
+| 特性分支开发（Feature Branch Development） | 质量优先 <br> 常用的有Git-Flow/Github-Flow/Gitlab-Flow <br> 为一个或多个需求/缺陷/任务创建代码开分支，在其上完成相应的开发（一般经过增量测试）后，把它合并（merge）到主干/集成分支。 | 1. 特性开发周期宽松：因为生命期可以较长，较大的需求特性可以在宽松的时间内完成再合入主干 <br> 2. 分支测试的时间宽松：因为生命期可以较长，可以有较多时间对分支进行测试，甚至手工测试 | 1. 版本管理成本(分支合并、冲突解决) |
+
+### TBD
+![](../s/dev/model/tbd.png)
+
+### Git-Flow
+![](../s/dev/model/Git-Flow.png)
+1. 新分支只能合并到来源分支(不能在新分支之间做合并)，来源分支可以将部分改进合并到新分支
+1. master分支打tag并保存发布版本基线, release分支发布
 
 |分支类型 | 名称 | 永久 | 命名规范 | 来源 | 操作 | 合并到 | 角色 |
-| -------- | ----- | ----- | ----- | ---- |----- | ----- | ---- |
+| - | - | - | - | - | - | - | - |
 | master | 主干，正式环境 | Y | master | release，hotfix | 无 | 无 | 发布人员 |
 | develop  | 开发分支，开发环境，测试环境 | Y |  dev | 无 | 任意 | 无 | 开发人员 |
 | feature | 功能分支 | N |  f-pay。f-功能说明 | dev | 任意 | dev | 开发人员 |
 | release | 版本发布分支 | N | 2.3。版本号 | dev | bugfix | dev | 发布人员，开发人员 |
 | hotfix | 补丁分支 | N | h-332452。h-bug说明 | master | bugfix | dev | 发布人员，开发人员 |
+
+### 资料
+* [TBD/Git-Flow/Github-Flow/Gitlab-Flow](https://developer.51cto.com/article/620588.html)
+* [Google 和腾讯为什么都采用主干开发模式](https://mp.weixin.qq.com/s/Q6pvLcr7S2Xct8MGtjMofA)
+* [特性分支开发分支模型](http://blog.csdn.net/qq_34651940/article/details/51891767)，[英文原版](http://nvie.com/posts/a-successful-git-branching-model/)
