@@ -1,12 +1,7 @@
 # 项目管理
 
 ## 项目目标制定
-遵循SMART原则
-1. 制定的目标应该是明确的（Specific），模棱两可的目标会让执行的时候觉得无所适从
-1. 制定的目标必须是可衡量的（Measurable），应该多采用可量化的指标
-1. 制定的目标应该是可达成的（Achievable），盲目追求不切实际的要求会给项目带来灾难性的后果
-1. 制定的目标要和项目本身具有很强的相关性（Relevance）
-1. 目标要有时间限制（Timeliness）
+* 遵循[SMART法则](https://me.wangyaqi.cn/#/kb/method)
 
 ## 项目价值
 * [为什么说产品决策不可缺少「项目价值」这根弦？](http://www.woshipm.com/pmd/572835.html)

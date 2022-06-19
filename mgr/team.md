@@ -33,4 +33,5 @@
 1. 团建机制
 
 ## 参考
+* [管理方法](https://me.wangyaqi.cn/#/kb/method)
 * http://blog.jobbole.com/99653/
