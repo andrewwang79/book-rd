@@ -1,12 +1,37 @@
-# 版本模型的最佳实践
+# 版本模型和最佳实践
 
-## 最佳实践
-* [先锋主干多稳定分支](https://juejin.cn/post/6844904197763104775)，特性分支开发的变种，区别有
-  1. 尽量在develop分支开发
-  1. 在release做hotfix、tag和发布
+## 开发模型
+### 资料
+* [TBD/Git-Flow/Github-Flow/Gitlab-Flow](https://developer.51cto.com/article/620588.html)
+* [Google 和腾讯为什么都采用主干开发模式](https://mp.weixin.qq.com/s/Q6pvLcr7S2Xct8MGtjMofA)
+* [特性分支开发分支模型](http://blog.csdn.net/qq_34651940/article/details/51891767)，[英文原版](http://nvie.com/posts/a-successful-git-branching-model/)
+
+### 分析
+* 互联网模式是随时有发布的版本(功能级)，非互联网版本有大版本概念(几个功能同时发版)
+
+| 模式 | 说明 | 场景 | 优势 | 劣势 |
+| - | - | - | - | - |
+| TBD：主干开发（trunkbaseddevelopment.com） | 主干开发和fix，release分支发布。开发团队的成员1天至少1次地将代码提交到主干分支 | 互联网模式 && 速度优先 | 1. 随时拥有可发布的版本 <br> 2. 天然支持灰度发布以及A/B Test <br> 3. 因为提前测试feature，所以更容易的控制feature发布 <br> 4. 更简单的版本管理 | 1. 代码评审和质量, 结对编程 |
+| Git-Flow：特性分支开发（Feature Branch Development） | 质量优先 <br> feature分支开发，dev分支集成，release分支发布，主干基线 | 非互联网模式 && 大型高质量产品 | 1. 特性开发周期宽松：因为生命期可以较长，较大的需求特性可以在宽松的时间内完成再合入主干 <br> 2. 分支测试的时间宽松：因为生命期可以较长，可以有较多时间对分支进行测试，甚至手工测试 | 1. 版本管理成本(分支合并、冲突解决) |
+| Github-Flow：特性分支开发（Feature Branch Development） | feature分支开发和集成，主干发布 | 互联网模式 && 速度优先 | 不需要强大的基建，其他同TBD | 同TBD |
+| Gitlab-Flow：特性分支开发（Feature Branch Development） | 开发同Github-Flow，发布有预发和发布分支 | 互联网模式 && 速度优先 | 有预发版本，其他同Github-Flow | 同Github-Flow |
+| [先锋主干多稳定分支](https://juejin.cn/post/6844904197763104775)，主干开发的变种 | 主干开发，支持feature分支开发，release分支fix和发布 | 非互联网模式 && 速度优先 |  | 1. 无评审机制 |
+
+### TBD
+![](../s/dev/model/tbd.png)
+
+### Git-Flow
+![](../s/dev/model/Git-Flow.png)
+1. 新分支只能合并到来源分支(不能在新分支之间做合并)，来源分支可以将部分改进合并到新分支
+
+### 先锋主干多稳定分支
+1. 尽量在dev分支开发，feature可以开feature分支来开发
+1. 在release分支做hotfix、tag和发布
 
 ![](../s/dev/model/fbd_simple.jpg)
 
+## 最佳实践
+* 先锋主干多稳定分支
 ![](../s/dev/model/git_workflow.png)
 
 ### 原则
@@ -24,7 +49,7 @@
 | 类型 | 格式 | 示例 | 说明 |
 | :-: | - | - | - |
 | 主干/开发分支 | dev | dev | 默认分支 |
-| 功能分支 | 源分支-功能说明 | dev-pay |  |
+| 功能分支 | f-功能 | f-pay |  |
 | 发布分支 | 版本 | 4.0 | 2位 |
 | 发布tag | 版本 | 4.0.1 | 3位 |
 | hotfix分支 | h-jira号 | h-123 |  |
@@ -60,31 +85,3 @@
 | 开发环境 | 开发分支 | 开发人员自行搭建环境 |
 | 测试环境 | 发布分支 |  |
 | 正式环境 | 发布tag |  |
-
-## 资料分析
-### 分析
-| 模式 | 说明 | 优势 | 劣势 |
-| - | - | - | - |
-| 主干开发（TBD,trunkbaseddevelopment.com） | 速度优先 <br> 开发团队的成员1天至少1次地将代码提交到主干分支 | 1. 随时拥有可发布的版本 <br> 2. 天然支持灰度发布以及A/B Test <br> 3. 因为提前测试feature，所以更容易的控制feature发布 <br> 4. 更简单的版本管理 | 1. 代码评审和质量, 结对编程 |
-| 特性分支开发（Feature Branch Development） | 质量优先 <br> 常用的有Git-Flow/Github-Flow/Gitlab-Flow <br> 为一个或多个需求/缺陷/任务创建代码开分支，在其上完成相应的开发（一般经过增量测试）后，把它合并（merge）到主干/集成分支。 | 1. 特性开发周期宽松：因为生命期可以较长，较大的需求特性可以在宽松的时间内完成再合入主干 <br> 2. 分支测试的时间宽松：因为生命期可以较长，可以有较多时间对分支进行测试，甚至手工测试 | 1. 版本管理成本(分支合并、冲突解决) |
-
-### TBD
-![](../s/dev/model/tbd.png)
-
-### Git-Flow
-![](../s/dev/model/Git-Flow.png)
-1. 新分支只能合并到来源分支(不能在新分支之间做合并)，来源分支可以将部分改进合并到新分支
-1. master分支打tag并保存发布版本基线, release分支发布
-
-|分支类型 | 名称 | 永久 | 命名规范 | 来源 | 操作 | 合并到 | 角色 |
-| - | - | - | - | - | - | - | - |
-| master | 主干，正式环境 | Y | master | release，hotfix | 无 | 无 | 发布人员 |
-| develop  | 开发分支，开发环境，测试环境 | Y |  dev | 无 | 任意 | 无 | 开发人员 |
-| feature | 功能分支 | N |  f-pay。f-功能说明 | dev | 任意 | dev | 开发人员 |
-| release | 版本发布分支 | N | 2.3。版本号 | dev | bugfix | dev | 发布人员，开发人员 |
-| hotfix | 补丁分支 | N | h-332452。h-bug说明 | master | bugfix | dev | 发布人员，开发人员 |
-
-### 资料
-* [TBD/Git-Flow/Github-Flow/Gitlab-Flow](https://developer.51cto.com/article/620588.html)
-* [Google 和腾讯为什么都采用主干开发模式](https://mp.weixin.qq.com/s/Q6pvLcr7S2Xct8MGtjMofA)
-* [特性分支开发分支模型](http://blog.csdn.net/qq_34651940/article/details/51891767)，[英文原版](http://nvie.com/posts/a-successful-git-branching-model/)
