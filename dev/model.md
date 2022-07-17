@@ -30,6 +30,10 @@
 
 ![](../s/dev/model/fbd_simple.jpg)
 
+### sprint
+1. 多个sprint可以对应1个软件版本，不是每个sprint都需要发布
+1. sprint处理：推荐打tag。实在要分支可以在开发分支上拉出sprint分支开发，比如Git-Flow
+
 ## 最佳实践
 * 先锋主干多稳定分支
 ![](../s/dev/model/git_workflow.png)
