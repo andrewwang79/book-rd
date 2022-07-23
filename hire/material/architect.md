@@ -31,13 +31,14 @@
 1. 架构分析：从功能性需求中识别出需要增加的非功能性需求，好满足性能、可扩展、解耦/集成、安全、可运维、高可用、易部署、易更新。并且识别完非功能型需求，还要做技术选型、技术架构风险识别、技术实现工作量评估
 1. 架构设计与实现：非功能性模块的架构设计、接口设计、代码实现。所以需要的是有代码实现能力还要有架构思维的工程师，不需要画PPT的工程师
 1. 业务架构设计与实现：需要对跨系统的接口进行识别、实现、维护，需要对能写成公共代码类库的进行分析、识别、接口设计、实现、变更维护。
-1. 重构：架构师需要经常做Bug分析、非模板性和公共类库代码检查，以发现代码腐烂程度，以发现还有哪些代码没有做很好的架构与精心的代码设计。所以重构是经常性维护发生的，不是攒到某一刻动大手术，甚至推翻重做，那就不叫重构了。
-1. 管理业务预期：非常重要！有时业务并不是真的此时此刻那么着急，而是看不到好转的希望，所以着急。将长短期计划更好分享给业务，管理好大家的预期，对于营造宽松氛围，争取更多资源意义重大。
+1. 重构
+1. **管理业务预期**：非常重要！有时业务并不是真的此时此刻那么着急，而是看不到好转的希望，所以着急。将长短期计划更好分享给业务，管理好大家的预期，对于营造宽松氛围，争取更多资源意义重大。
 
 ## 工作方法
 * [开发文档编写](https://tech.wangyaqi.cn/#/doc/dev)
+* 风险分析: 风险事项，等级，处理方案，跟踪历史
+* 技术评审
 
-### 技术评审
 | 评审项 | 说明 |
 | - | - |
 | 符合公司规划 | 5分制 |
@@ -45,22 +46,12 @@
 | 可扩展 | 5分制 |
 | 复用度-技术架构 | 5分制 |
 
-### 风险分析
-风险事项，等级，处理方案，跟踪历史
 
-### 重构
-* 随着业务快速迭代，重构是个正常操作
-
-| 重构项 | 重构原因 | 说明 |
-| :-: | - | - |
-| 代码 | 代码质量差 | 做好团队能力建设 |
-| 业务 | 业务有大变动，当前产品无法支持 | 好的业务架构可以支持的更久 |
-| 架构 | 技术架构无法支持大流量等 | 好的技术架构可以支持的更久 |
-| 团队 | 团队不行 | 做好团队能力建设 |
-
-## Java架构师知识体系
-* https://github.com/xingshaocheng/architect-awesome
-* https://github.com/aalansehaiyang/technology-talk
-* https://github.com/TFdream/awesome-backend-architecture
-* http://class.imooc.com/sale/javaarchitect
-* https://github.com/davideuler/architecture.of.internet-product
+## 资料
+* https://tech.wangyaqi.cn/#/common/arch
+* Java架构师知识体系
+  * https://github.com/xingshaocheng/architect-awesome
+  * https://github.com/aalansehaiyang/technology-talk
+  * https://github.com/TFdream/awesome-backend-architecture
+  * http://class.imooc.com/sale/javaarchitect
+  * https://github.com/davideuler/architecture.of.internet-product
