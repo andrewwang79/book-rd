@@ -18,11 +18,7 @@
     * [中台团队](hire/material/zt.md)
     * [好坏产品经理](hire/material/pm.md)
     * [好坏程序员](hire/material/se.md)
-* 测试
-  * [知识](test/SUMMARY.md)
-  * [通用测试工具](test/tool.md)
-  * [单元测试](test/ut.md)
+* 质量管理体系
+  * [知识](qms/SUMMARY.md)
 * 配置管理
   * [知识](cm/SUMMARY.md)
-* 法规标准
-  * [知识](standard/SUMMARY.md)
