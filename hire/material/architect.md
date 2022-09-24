@@ -1,5 +1,6 @@
 # 架构师
 * [架构知识](https://tech.wangyaqi.cn/#/common/arch)
+1. 不仅技术要好，还要懂业务；能整体设计架构，也能开发核心功能。
 
 ## 职责
 1. 技术选型与技术路线决策
@@ -27,6 +28,12 @@
 1. 分析问题能力
 1. 沟通协调能力
 
+### 架构能力
+1. 抽象能力
+1. 分治能力
+1. 复用能力
+1. 迭代能力
+
 ## 日常工作
 1. 架构分析：从功能性需求中识别出需要增加的非功能性需求，好满足性能、可扩展、解耦/集成、安全、可运维、高可用、易部署、易更新。并且识别完非功能型需求，还要做技术选型、技术架构风险识别、技术实现工作量评估
 1. 架构设计与实现：非功能性模块的架构设计、接口设计、代码实现。所以需要的是有代码实现能力还要有架构思维的工程师，不需要画PPT的工程师
@@ -46,9 +53,8 @@
 | 可扩展 | 5分制 |
 | 复用度-技术架构 | 5分制 |
 
-
 ## 资料
-* https://tech.wangyaqi.cn/#/common/arch
+* [架构师](https://mp.weixin.qq.com/s/g9R8X-Y3aneFJUjijtGdOw)
 * Java架构师知识体系
   * https://github.com/xingshaocheng/architect-awesome
   * https://github.com/aalansehaiyang/technology-talk
