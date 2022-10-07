@@ -15,7 +15,6 @@
   * [面试](hire/interview.md)
   * 资料
     * [架构师](hire/material/architect.md)
-    * [中台团队](hire/material/zt.md)
     * [好坏产品经理](hire/material/pm.md)
     * [好坏程序员](hire/material/se.md)
 * [质量管理体系](qms/SUMMARY.md)
