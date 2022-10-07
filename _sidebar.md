@@ -10,7 +10,7 @@
   * [团队管理](mgr/team.md)
   * [团队结构](mgr/teamstruct.md)
   * [向上管理](mgr/upward.md)
-* [人员招聘](hire/SUMMARY.md)
+* [招聘](hire/SUMMARY.md)
   * [JD](hire/jd.md)
   * [面试](hire/interview.md)
   * 资料
@@ -20,5 +20,5 @@
     * [好坏程序员](hire/material/se.md)
 * [质量管理体系](qms/SUMMARY.md)
   * [产品生命周期](qms/plm.md)
-* 配置管理
-  * [知识](cm/SUMMARY.md)
+  * 配置管理
+    * [知识](cm/SUMMARY.md)
