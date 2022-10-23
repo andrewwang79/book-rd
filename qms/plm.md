@@ -29,5 +29,5 @@
 | 飞检 | 飞行检查 | 监管部门对医疗器械企业开展的不预先告知的监督检查。 |
 | 国抽 | 质量抽查检验 | 对医疗器械产品质量的抽查检验工作。 |
 
-### PLM
+### PLM系统
 * [windchill](http://proechina.com/products/windchill_function.html)

@@ -1,23 +1,23 @@
 * [介绍](README.md)
-* 软件工程
+* 系统工程
   * [研发效能](dev/efficiency.md)
   * [版本模型的最佳实践](dev/model.md)
   * [敏捷开发](dev/agile.md)
   * [VMODEL开发](dev/vmodel.md)
   * [项目管理](dev/project.md)
   * [开发管理](dev/mgr.md)
-* 人员管理
-  * [团队管理](mgr/team.md)
-  * [团队结构](mgr/teamstruct.md)
-  * [向上管理](mgr/upward.md)
-* [招聘](hire/SUMMARY.md)
-  * [JD](hire/jd.md)
-  * [面试](hire/interview.md)
-  * 资料
-    * [架构师](hire/material/architect.md)
-    * [好坏产品经理](hire/material/pm.md)
-    * [好坏程序员](hire/material/se.md)
 * [质量管理体系](qms/SUMMARY.md)
   * [产品生命周期](qms/plm.md)
   * 配置管理
     * [知识](cm/SUMMARY.md)
+* 组织
+  * [团队管理](mgr/team.md)
+  * [团队结构](mgr/teamstruct.md)
+  * [向上管理](mgr/upward.md)
+  * [招聘](hire/SUMMARY.md)
+    * [JD](hire/jd.md)
+    * [面试](hire/interview.md)
+    * 资料
+      * [架构师](hire/material/architect.md)
+      * [好坏产品经理](hire/material/pm.md)
+      * [好坏程序员](hire/material/se.md)
