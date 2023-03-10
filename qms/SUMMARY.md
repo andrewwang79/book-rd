@@ -21,6 +21,9 @@
 | YY/T 0664-2020 医疗器械软件 软件生存周期过程 |  |
 
 ## 资料
+* [CAPA，质量管理体系的生命力](https://zhuanlan.zhihu.com/p/375906048) : Corrective Action and Preventive Action/纠正和预防措施
+* [CAPA实施的八大步骤](https://zhuanlan.zhihu.com/p/451241044)
+
 ### SOUP
 * “SOUP”经常作为“Software Of Uncertain Pedigree”的缩写来使用，不确定谱系软件/未知来源软件。
 * 成品软件，如果基于Windows的程序，采用WPF,C# 开发，则NetFramework等都不属于SOUP

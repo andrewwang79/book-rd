@@ -9,7 +9,7 @@
 * [质量管理体系](qms/SUMMARY.md)
   * [产品生命周期](qms/plm.md)
   * 配置管理
-    * [知识](qums/cm/SUMMARY.md)
+    * [知识](qms/cm/SUMMARY.md)
 * 组织
   * [团队管理](mgr/team.md)
   * [团队结构](mgr/teamstruct.md)
