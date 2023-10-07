@@ -1,5 +1,6 @@
 # 质量管理体系(QMS)
 * 质量不是检测出来的，是通过质量管理体系生产出来的
+* 记录真实、准确、完整和可追溯。
 
 ## QMS的体系文件
 * 第一层是金字塔顶
@@ -15,7 +16,7 @@
 | 项 | 名称 | 说明 |
 | :-: | - | - |
 | QC | 质量控制 | 产品测试人员 |
-| QA | 质量保证 | 过程控制人员 |
+| QA | 质量保证 | 过程控制人员 <br> 工作内容：质量保证，设计验证方案、测试报告输出，体系文档审核 |
 | QM | 质量管理 |  |
 
 ![](https://pic2.zhimg.com/80/v2-fb63c01ca86efd8f330c6ffcc7813641_1440w.webp)
@@ -29,6 +30,7 @@
 ## 资料
 * [CAPA，质量管理体系的生命力](https://zhuanlan.zhihu.com/p/375906048) : Corrective Action and Preventive Action/纠正和预防措施
 * [CAPA实施的八大步骤](https://zhuanlan.zhihu.com/p/451241044)
+* [人机料法环](https://zhuanlan.zhihu.com/p/134621727):质量管理理论中的五个影响产品质量的主要因素
 
 ### SOUP
 * “SOUP”经常作为“Software Of Uncertain Pedigree”的缩写来使用，不确定谱系软件/未知来源软件。
