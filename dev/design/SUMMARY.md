@@ -57,5 +57,5 @@
       * 性能需求规格（PRS）：定义了用户注册功能的性能要求，例如注册过程的响应时间在几秒钟内完成。
 
 ## 资料
-* 文档模板 : 本仓库目录/s/doc/dev/
+* 文档模板 : 本仓库目录/dev/design/s/tpl/
 * [visio设置多个相同类型图形的大小和位置](https://blog.csdn.net/jhsword/article/details/105301529)

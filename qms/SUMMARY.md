@@ -27,15 +27,7 @@
 | [ISO27001 信息安全管理体系](https://www.secrss.com/articles/18682) | 信息安全管理体系规范，信息安全管理实施规则 |
 | YY/T 0664-2020 医疗器械软件 软件生存周期过程 |  |
 
-## 资料
-* [CAPA，质量管理体系的生命力](https://zhuanlan.zhihu.com/p/375906048) : Corrective Action and Preventive Action/纠正和预防措施
-* [CAPA实施的八大步骤](https://zhuanlan.zhihu.com/p/451241044)
-* [人机料法环](https://zhuanlan.zhihu.com/p/134621727):质量管理理论中的五个影响产品质量的主要因素
-
-### SOUP
-* “SOUP”经常作为“Software Of Uncertain Pedigree”的缩写来使用，不确定谱系软件/未知来源软件。
-* 成品软件，如果基于Windows的程序，采用WPF,C# 开发，则NetFramework等都不属于SOUP
-
+## 风险
 ### 风险评价准则
 | 概率/严重程度	| 灾难性 | 致命 | 中度 | 轻度 |
 | - | - | - | - | - |
@@ -51,9 +43,7 @@ A：可接受的风险
 R：合理可行降低(ALARP)的风险
 U：不经过风险／ 收益分析即判定为不可接受的风险
 
-### 软件检测
-> 软件质量 = 产品质量 + 使用质量
-
+## 质量评价
 1. 产品质量是软件产品本身的质量评价
     1. 功能性
     1. 性能效率
@@ -69,3 +59,17 @@ U：不经过风险／ 收益分析即判定为不可接受的风险
     1. 满意度
     1. 抗风险
     1. 周境覆盖
+
+## 软件
+### SOUP
+> 不确定谱系软件/未知来源软件(Software of Unknown Provenance) : 生产企业**未进行完整生存周期控制**的软件，包括遗留软件、成品软件。
+
+| 项	| 英语 | 定义 | 说明 |
+| - | - | - | - |
+| 遗留软件 | Legacy Software | 生产企业以前开发，但现在不能得到足够开发记录的软件 |  |
+| 成品软件 | OTS(Off-the-shelf Software) | 已开发且通常可得到的，不一定是为医疗行业或者具体某个医疗器械而开发的软件。如开源软件、企业开发的有足够开发记录的软件(如通用库) | 采用WPF,C#开发的Windows程序，其中的NetFramework等不属于SOUP |
+
+## 资料
+* [CAPA，质量管理体系的生命力](https://zhuanlan.zhihu.com/p/375906048) : Corrective Action and Preventive Action/纠正和预防措施
+* [CAPA实施的八大步骤](https://zhuanlan.zhihu.com/p/451241044)
+* [人机料法环](https://zhuanlan.zhihu.com/p/134621727):质量管理理论中的五个影响产品质量的主要因素
