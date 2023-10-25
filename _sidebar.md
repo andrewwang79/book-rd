@@ -2,6 +2,11 @@
 * [质量管理体系](qms/SUMMARY.md)
   * [产品生命周期](qms/plm.md)
   * [配置管理](qms/cm/SUMMARY.md)
+* [研发](dev/design/SUMMARY.md)
+  * [产品需求(PRD)](dev/design/req.md)
+  * [系统分析(SRS)](dev/design/sa.md)
+  * [概要设计](dev/design/sbd.md)
+  * [UML](dev/design/uml.md)
 * [系统工程](dev/SUMMARY.md)
   * [研发效能](dev/efficiency.md)
   * [版本模型的最佳实践](dev/model.md)
@@ -12,11 +17,6 @@
 * 产品
   * [产品设计](dev/product/design.md)
   * [移动端产品设计规约](dev/product/mobile_spec.md)
-* [研发](dev/design/SUMMARY.md)
-  * [产品需求(PRD)](dev/design/req.md)
-  * [系统分析(SRS)](dev/design/sa.md)
-  * [概要设计](dev/design/sbd.md)
-  * [UML](dev/design/uml.md)
 * 测试
   * [质量知识](dev/test/quality.md)
   * [测试知识](dev/test/SUMMARY.md)
