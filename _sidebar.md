@@ -2,6 +2,7 @@
 * [质量管理体系](qms/SUMMARY.md)
   * [产品生命周期](qms/plm.md)
   * [配置管理](qms/cm/SUMMARY.md)
+  * [软件](qms/software.md)
 * [研发](dev/design/SUMMARY.md)
   * [产品需求(PRD)](dev/design/req.md)
   * [系统分析(SRS)](dev/design/sa.md)
