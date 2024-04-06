@@ -4,8 +4,9 @@
   * [配置管理](qms/cm/SUMMARY.md)
   * [软件](qms/software.md)
 * [研发](dev/design/SUMMARY.md)
-  * [产品需求(PRD)](dev/design/req.md)
-  * [系统分析(SRS)](dev/design/sa.md)
+  * [产品设计](dev/design/product.md)
+    * [需求分析](dev/design/ra.md)
+    * [系统分析](dev/design/sa.md)
   * [概要设计](dev/design/sbd.md)
   * [UML](dev/design/uml.md)
 * [系统工程](dev/SUMMARY.md)
@@ -15,9 +16,6 @@
   * [VMODEL开发](dev/vmodel.md)
   * [项目管理](dev/project.md)
   * [开发管理](dev/mgr.md)
-* 产品
-  * [产品设计](dev/product/design.md)
-  * [移动端产品设计规约](dev/product/mobile_spec.md)
 * 测试
   * [质量知识](dev/test/quality.md)
   * [测试知识](dev/test/SUMMARY.md)
