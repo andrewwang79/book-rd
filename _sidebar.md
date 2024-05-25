@@ -16,6 +16,7 @@
   * [VMODEL开发](dev/vmodel.md)
   * [项目管理](dev/project.md)
   * [开发管理](dev/mgr.md)
+  * [AzureDevOps](dev/azure_devops.md)
 * 测试
   * [质量知识](dev/test/quality.md)
   * [测试知识](dev/test/SUMMARY.md)
