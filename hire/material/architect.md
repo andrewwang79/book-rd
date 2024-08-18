@@ -47,7 +47,7 @@
 * 操作
     1. 修改时：时时最小改进和重构。将风险分散到每个最小点（集中重构风险很大）
     1. 新开发时：每个业务解耦，大设计迭代开发，预留插槽
-* [开发文档编写](https://tech.wangyaqi.cn/#/doc/dev)
+* [开发文档编写](https://sw.wangyaqi.cn/#/dev/design/SUMMARY)
 * 风险分析: 风险事项，等级，处理方案，跟踪历史
 * 技术评审
 
@@ -59,7 +59,7 @@
 | 复用度-技术架构 | 5分制 |
 
 ## 资料
-* [架构知识](https://tech.wangyaqi.cn/#/common/arch)
+* [架构知识](https://sw.wangyaqi.cn/#/arch/arch)
 * [架构师](https://mp.weixin.qq.com/s/g9R8X-Y3aneFJUjijtGdOw)
 * Java架构师知识体系
   * https://github.com/xingshaocheng/architect-awesome

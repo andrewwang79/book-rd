@@ -9,3 +9,6 @@
 ### 变量
 * rev:rr是项目内同基于同日期的自增长和重置
 * Build.BuildId是项目内自增长
+
+### agent
+* https://github.com/microsoft/azure-pipelines-agent

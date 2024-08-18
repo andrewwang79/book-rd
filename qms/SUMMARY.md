@@ -79,6 +79,9 @@ U：不经过风险／ 收益分析即判定为不可接受的风险
     1. 高风险功能需求：可能导致严重后果或风险的功能需求。
     1. 法规和标准要求：符合法规和标准的功能需求
 
+## 过程确认
+* IQ(安装)，OQ(操作)，PQ(性能)
+
 ## 资料
 * [CAPA，质量管理体系的生命力](https://zhuanlan.zhihu.com/p/375906048) : Corrective Action and Preventive Action/纠正和预防措施
 * [CAPA实施的八大步骤](https://zhuanlan.zhihu.com/p/451241044)
