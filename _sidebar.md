@@ -13,6 +13,7 @@
   * [AzureDevOps](dev/azure_devops.md)
 * 组织
   * [团队管理](mgr/team.md)
+  * [OKR和KPI](mgr/okr.md)
   * [团队结构](mgr/teamstruct.md)
   * [向上管理](mgr/upward.md)
   * [招聘](hire/SUMMARY.md)
