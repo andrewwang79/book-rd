@@ -1,29 +1,31 @@
 # 架构师
-## 能力要求
+## 综合要求
 * 体系化思维，结构化思维，演进性架构思维
 * 技术和商业都好
   * 商业基础能力(快速了解行业动态洞悉行业趋势)。大型系统的商业决策经验
 * 技术决策，系统设计架构，核心技术公关
 * 平衡：质量，成本，风险
 
-### 专业能力
-1. 战略规划能力。
-1. 业务流程建模能力。
-1. 信息数据结构能力。
-1. 技术架构选择和实现能力。
-1. 应用系统架构的解决和实现能力。
-1. 基础IT知识及基础设施、资源调配能力。
-1. 信息安全技术支持与管理保障能力。
-1. IT审计、治理与基本需求分析、获取能力。
-1. 面向软件系统可靠性与系统生命周期的质量保障服务能力。
-
+## 能力清单
 ### 通用能力
+1. 追寻本源能力：如"迅速理解复杂问题并能用极度简单的语言来解释"
 1. 学习能力
 1. 系统思维能力
 1. 分析问题能力
 1. 沟通协调能力
 
-### 架构能力
+### 专业能力
+1. 战略规划能力
+1. 业务流程建模能力
+1. 信息数据结构能力
+1. 技术架构选择和实现能力
+1. 应用系统架构的解决和实现能力
+1. 基础IT知识及基础设施、资源调配能力
+1. 信息安全技术支持与管理保障能力
+1. IT审计、治理与基本需求分析、获取能力
+1. 面向软件系统可靠性与系统生命周期的质量保障服务能力
+
+### 架构设计能力
 1. 抽象能力
 1. 分治能力
 1. 复用能力
@@ -62,8 +64,8 @@
 * [架构知识](https://sw.wangyaqi.cn/#/arch/arch)
 * [架构师](https://mp.weixin.qq.com/s/g9R8X-Y3aneFJUjijtGdOw)
 * Java架构师知识体系
-  * https://github.com/xingshaocheng/architect-awesome
-  * https://github.com/aalansehaiyang/technology-talk
-  * https://github.com/TFdream/awesome-backend-architecture
-  * http://class.imooc.com/sale/javaarchitect
-  * https://github.com/davideuler/architecture.of.internet-product
+    * https://github.com/xingshaocheng/architect-awesome
+    * https://github.com/aalansehaiyang/technology-talk
+    * https://github.com/TFdream/awesome-backend-architecture
+    * http://class.imooc.com/sale/javaarchitect
+    * https://github.com/davideuler/architecture.of.internet-product
