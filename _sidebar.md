@@ -19,7 +19,8 @@
   * [向上管理](mgr/upward.md)
   * [招聘](hire/SUMMARY.md)
     * [JD](hire/jd.md)
-    * [面试](hire/interview.md)
+    * [职责职级](hire/title_level.md)
+    * [软件工程师面试](hire/interview.md)
     * 资料
       * [架构师](hire/material/architect.md)
       * [好坏产品经理](hire/material/pm.md)
