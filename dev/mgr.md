@@ -44,7 +44,7 @@
 
 ## 参考
 ### WBS
-- [工作分解结构(Work Breakdown Structure)](http://www.mypm.net/special/wbs/)
+* [工作分解结构(Work Breakdown Structure)](http://www.mypm.net/special/wbs/)：大目标→阶段→子任务→具体活动(含人员和完成时间)
 
 ### 项目管理过程组与知识领域表
 * 5大项目管理过程组：启动过程组、规划过程组、执行过程组、监控过程组、收尾过程组
