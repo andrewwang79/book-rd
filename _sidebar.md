@@ -5,6 +5,7 @@
   * [质量管理](qms/qm/SUMMARY.md)
     * [配置管理](qms/qm/cm.md)
     * [变更管理](qms/qm/moc.md)
+    * [FMEA](qms/qm/fmea.md)
 * [系统工程](dev/SUMMARY.md)
   * [研发效能](dev/efficiency.md)
   * [版本模型的最佳实践](dev/model.md)
