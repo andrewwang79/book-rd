@@ -1,5 +1,12 @@
 # FMEA
-* DFMEA，SFMEA，UFMEA，PFMEA
+
+| 项 | 名称 | 说明 |
+| - | - | - |
+| DFMEA | 设计 |  |
+| SFMEA | 软件 |  |
+| UFMEA | 用户 |  |
+| CSFMEA | 网络安全(Cybersecurity FMEA) |  |
+| PFMEA |  |  |
 
 ## DFMEA
 > 设计的FMEA（失效模式与效应分析，Failure Mode and Effects Analysis）
@@ -22,6 +29,3 @@
 * 失效模式：逻辑错误、边界条件异常、数据处理错误、时序问题
 * 分析方法："软件安全需求→核心架构模块→模块间接口→算法逻辑"的自上而下分层分析，代码级分析仅作为追溯失效根源的
 * SDS文档链接到FMEA的失效模式及其失效原因
-
-## CSFMEA
-网络安全FMEA（Cybersecurity FMEA）
